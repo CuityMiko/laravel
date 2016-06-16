@@ -8,12 +8,12 @@ composer config -g repositories.packagist composer http://packagist.phpcomposer.
 
 ### 安装 Laravel 程序
 首先, 通过 Composer 下载 Laravel 安装程序:
-composer global require "laravel/installer=~1.1"
+composer global require "laravel/installer"
 
 ### 添加Laravel 环境变量：
     export PATH=$PATH:~/.composer/vendor/bin
     source ~/.bashrc
 
 ### 创建一个Laravel 应用
-    chmod 755 /home/liguibing/.composer -R #设置可写、执行权限
+    laravel new blog
 
