@@ -9,7 +9,7 @@
 ### 安装 Laravel 程序
     首先, 通过 Composer 下载 Laravel 安装程序:
     composer global require "laravel/installer"
-    如果出错，则执行：composer config -g secure-http false
+    如果出线http错误，则执行：composer config -g secure-http false
 
 ### 添加Laravel 环境变量：
     export PATH=$PATH:~/.composer/vendor/bin
